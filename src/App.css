@@ -1,0 +1,107 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;  margin: 0;
+  padding: 0;
+  min-height: 100vh; /* Ensure the body takes up full height of the viewport */
+  display: flex;
+  flex-direction: column;
+}
+nav {
+  background-color: #87b1dd; /* Darker blue for better contrast */
+  padding: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  height: 2rem;
+  width: 100%;
+}
+
+nav a {
+  color: white;
+  margin: 0 20px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.5rem;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #ffd700; /* Gold color on hover */
+}
+
+.login-container,
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+  padding: 20px;
+  width: 100%;
+  transition: background-color 0.3s ease-in-out;
+ 
+}
+p{
+  color: #3f5974;
+}
+.login-container:hover,
+.home-container:hover {
+  background-color: #e0f7fa; /* Light background on hover */
+}
+
+button {
+  margin: 10px;
+  padding: 12px 25px;
+  background-color: #87b1dd;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s, transform 0.2s;
+  margin-bottom: 8rem;
+}
+button:hover {
+  background-color: #87b1dd;
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+h1, h2 {
+  transition: color 0.3s ease-in-out;
+}
+
+h1:hover, h2:hover {
+  color: #87b1dd; /* Change color on hover */
+}
+
+/* Footer styles */
+footer {
+  background-color: #87b1dd;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+  
+
+footer a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+footer a:hover {
+  color: #ffd700; /* Gold color on hover */
+}
+
+/* Social media icons */
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  font-size: 20px; /* Adjust size for better visibility */
+}
